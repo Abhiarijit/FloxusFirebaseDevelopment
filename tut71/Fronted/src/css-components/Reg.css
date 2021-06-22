@@ -1,0 +1,76 @@
+.logo {
+    width: 4%;
+    height: 4%;
+    border-radius: 40%;
+    border: none;
+    background: transparent;
+}
+
+.cont {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(29, 13, 13, 0);
+    width: 67vw;
+    padding: 40px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 70vh;
+    /* overflow-y: auto; */
+}
+
+.cont:hover {
+    box-shadow: inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset -2px -2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1), inset 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-content {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.signup-form {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.cont .signup-content .form .form-group .inp-text {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    width: 35%;
+}
+
+.cont .signup-content .form .form-group .inp-submit {
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgb(105, 91, 110), rgb(42, 70, 49));
+    width: 14%;
+    outline: none;
+    height: 34px;
+}
+
+.cont .signup-content .form .form-group .hides .hide {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.cont .img {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+
+.cont .img .account {
+    position: relative;
+    left: 5%;
+    top: 19%;
+    font-weight: bold;
+    font-style: italic;
+}
