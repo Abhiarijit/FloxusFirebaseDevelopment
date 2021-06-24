@@ -7,7 +7,7 @@
 #bdy {
     background: url("../images/background.jpg") no-repeat center center/cover;
     width: 100vw;
-    height: 100vh;
+    height: 760px;
 }
 
 .cont .box {
@@ -53,4 +53,57 @@
     border: none;
     background-color: purple;
     color: aliceblue;
+}
+
+@media only screen and (max-width:700px) {
+    #bdy {
+        height: 900px;
+    }
+    .navbar-light .navbar-brand {
+        width: 10%;
+    }
+    .cont .box .element1 .head1 {
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    .cont .box .element1 .head2 {
+        font-size: 2rem;
+    }
+    .cont .box .element3 {
+        width: 95%;
+    }
+    .cont .box .element4 .btns {
+        width: 45%;
+    }
+    .cont .box .element2 .head2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    #bdy {
+        height: 877px;
+    }
+    .navbar-light .navbar-brand {
+        width: 14%;
+    }
+    .cont .box .element1 .head1 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+    }
+    .cont .box .element1 .head2 {
+        font-size: 1.8rem;
+    }
+    .cont .box .element3 {
+        width: 133%;
+    }
+    .cont .box .element4 .btns {
+        width: 65%;
+    }
+    .cont .box .element2 .head2 {
+        font-size: 1.6rem;
+    }
+    .cont .box {
+        top: 43%;
+    }
 }

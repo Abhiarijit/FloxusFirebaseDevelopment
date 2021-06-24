@@ -67,3 +67,22 @@
     left: 80%;
     top: 60%;
 }
+
+@media only screen and (max-width:700px) {
+    .conts {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    .conts .body .img-body img {
+        height: 9rem;
+    }
+    .conts .body .card-element1 h1 {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .conts .body {
+        top: 30%
+    }
+}
